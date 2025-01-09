@@ -9,9 +9,17 @@
 		<title>Document</title>
 		<style>
 			textarea {
-				width: 90%;
+				width: 80%;
 				display: block;
 				margin: 1rem;
+				padding: 1rem;
+			}
+			#output {
+				border: 1px solid black;
+				height: 10vh;
+				width: 80%;
+				margin: 1rem;
+				padding: 1rem;
 			}
 		</style>
 	</head>
@@ -20,6 +28,9 @@
 		<h1>talk banaaabanaaa</h1>
 		<textarea id="txt-input" placeholder="Put your sentence in English here and we will convert it to banana " ></textarea>
 		<button id="btn-translate">Translate</button>
+
+		<div style="font-size: larger;" >Output will come out 👇</div>
+		<div id="output">Danial is awesome!</div>
 		<script src="app.js"></script>
 	</body> 
 </html>
